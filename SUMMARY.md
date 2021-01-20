@@ -4,7 +4,7 @@
 
 ## JAVA  🥧
 
-* [Java基础  🛴](java/start/README.md)
+* [Java基础  🚶‍♀️](java/start/README.md)
   * [基础语法](java/start/start-1/README.md)
     * [基本概念介绍](java/start/start-1/1.md)
     * [数据类型，变量，常量](java/start/start-1/2.md)
