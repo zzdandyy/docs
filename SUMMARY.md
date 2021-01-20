@@ -20,5 +20,5 @@
 
 ---
 
-* [项目文档](https://item.doublez.pro)
+* [✨  项目文档](https://item.doublez.pro)
 
