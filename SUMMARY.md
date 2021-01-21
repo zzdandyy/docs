@@ -239,7 +239,7 @@
   * [1658.minimum-operations-to-reduce-x-to-zero](leetcode/leetcode-1/1658.minimum-operations-to-reduce-x-to-zero.md)
   * [1707.maximum-xor-with-an-element-from-array](leetcode/leetcode-1/1707.maximum-xor-with-an-element-from-array.md)
 * [算法](leetcode/leetcode-2/README.md)
-  * [backtrack](leetcode/leetcode-2/backtrack.md)
+  * [回溯](leetcode/leetcode-2/backtrack.md)
   * [balanced-tree](leetcode/leetcode-2/balanced-tree.md)
   * [basic-algorithm](leetcode/leetcode-2/basic-algorithm.md)
   * [basic-data-structure](leetcode/leetcode-2/basic-data-structure.md)
