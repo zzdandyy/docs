@@ -21,7 +21,7 @@
 ## 💡  LEETCODE
 
 * [题目合集](leetcode/leetcode-1/README.md)
-  * [0001.two-sum](leetcode/leetcode-1/0001.two-sum.md)
+  * [0001 两数之和](leetcode/leetcode-1/0001.two-sum.md)
   * [0002.add-two-numbers](leetcode/leetcode-1/0002.add-two-numbers.md)
   * [0003.longest-substring-without-repeating-characters](leetcode/leetcode-1/0003.longest-substring-without-repeating-characters.md)
   * [0004.median-of-two-sorted-arrays](leetcode/leetcode-1/0004.median-of-two-sorted-arrays.md)
