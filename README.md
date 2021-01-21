@@ -4,7 +4,7 @@ description: 记录自己的学习过程
 
 # 学习文档
 
-{% hint style="success" %}
+{% hint style="info" %}
  学习第一步，java纸尿裤
 {% endhint %}
 
@@ -18,11 +18,11 @@ public class HelloWorld {
 ```
 {% endcode %}
 
-{% hint style="success" %}
+{% hint style="info" %}
  学习第二步，linux删库跑路
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="info" %}
 学习第三步，leetcode智慧树
 {% endhint %}
 
