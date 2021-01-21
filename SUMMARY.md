@@ -266,6 +266,7 @@
 ## 🐧  LINUX
 
 * [Linux命令](linux/linux-1/README.md)
+  * [Untitled](linux/linux-1/untitled.md)
   * [ab](linux/linux-1/ab.md)
   * [accept](linux/linux-1/accept.md)
   * [ack](linux/linux-1/ack.md)
@@ -839,11 +840,8 @@
   * [zipsplit](linux/linux-1/zipsplit.md)
   * [znew](linux/linux-1/znew.md)
 
-## PROJECT
+## ✨  PROJECT
 
-* [我的项目](project/myproject.md)
-
----
-
-* [个人博客](blog.md)
+* [我的项目](project/myproject/README.md)
+  * [个人博客](project/myproject/blog.md)
 
