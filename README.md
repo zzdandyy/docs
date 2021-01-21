@@ -19,12 +19,8 @@ public class HelloWorld {
 {% endcode %}
 
 {% hint style="success" %}
- 学习第二步，
+ 学习第二步，linux删库跑路
 {% endhint %}
-
-
-
-
 
 {% hint style="success" %}
 学习第三步，leetcode智慧树
