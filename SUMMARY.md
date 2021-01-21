@@ -18,6 +18,10 @@
 * [SSM到SpringBoot](java/ssm.md)
 * [分布式与微服务](java/ms.md)
 
+## 💡  LEETCODE
+
+* [Untitled](leetcode/untitled.md)
+
 ## 🐧  LINUX
 
 * [Linux命令](linux/linux-1/README.md)
@@ -593,10 +597,6 @@
   * [zipinfo](linux/linux-1/zipinfo.md)
   * [zipsplit](linux/linux-1/zipsplit.md)
   * [znew](linux/linux-1/znew.md)
-
-## 💡  LEETCODE
-
-* [Untitled](leetcode/untitled.md)
 
 ---
 
