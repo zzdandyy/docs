@@ -839,7 +839,3 @@
   * [zipsplit](linux/linux-1/zipsplit.md)
   * [znew](linux/linux-1/znew.md)
 
----
-
-* [✨  项目文档](https://item.doublez.pro)
-
