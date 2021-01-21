@@ -2,6 +2,8 @@
 
 ### Linux命令分类
 
+这里存放Linux 命令并不全，你可以通过右上角 **搜索文档...** 来搜索
+
 #### 文件传输
 
 bye、ftp、ftpcount、ftpshut、ftpwho、ncftp、tftp、uucico、uucp、uupick、uuto、scp
