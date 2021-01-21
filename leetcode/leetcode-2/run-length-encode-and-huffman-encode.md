@@ -1,4 +1,4 @@
-# run-length-encode-and-huffman-encode
+# 游程编码与哈夫曼编码
 
 ## Huffman encode\(哈夫曼编码\)
 

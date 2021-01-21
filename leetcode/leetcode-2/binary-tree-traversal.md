@@ -1,4 +1,4 @@
-# binary-tree-traversal
+# 二叉树遍历
 
 ## 概述
 

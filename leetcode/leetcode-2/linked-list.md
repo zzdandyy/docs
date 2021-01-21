@@ -1,4 +1,4 @@
-# linked-list
+# 链表
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gki5nbjcgqj31be0u0q5w.jpg)
 
