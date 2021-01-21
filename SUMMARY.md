@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📚  文档](README.md)
+* [学习文档](README.md)
 
 ## 🥧  JAVA
 
