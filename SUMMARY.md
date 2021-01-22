@@ -2,26 +2,28 @@
 
 * [学习文档](README.md)
 
-## DAILY
+## 📆 DAILY
 
 * [2021-wh](daily/2021-wh/README.md)
   * [day1](daily/2021-wh/day1.md)
 
 ## 🥧  JAVA
 
-* [Java基础](java/start/README.md)
-  * [基础语法](java/start/start-1/README.md)
-    * [基本概念介绍](java/start/start-1/1.md)
-    * [数据类型，变量，常量](java/start/start-1/2.md)
-    * [运算符的使用](java/start/start-1/3.md)
-    * [选择结构](java/start/start-1/4.md)
-  * [循环，数组，方法](java/start/start-2/README.md)
-    * [循环体结构的使用](java/start/start-2/1.md)
-    * [数组的移位和统计](java/start/start-2/2.md)
-* [网页搭建](java/web.md)
-* [数据库开发](java/sql.md)
-* [SSM到SpringBoot](java/ssm.md)
-* [分布式与微服务](java/ms.md)
+* [Java学习](java/java-1/README.md)
+  * [Java基础](java/java-1/start/README.md)
+    * [基础语法](java/java-1/start/start-1/README.md)
+      * [基本概念介绍](java/java-1/start/start-1/1.md)
+      * [数据类型，变量，常量](java/java-1/start/start-1/2.md)
+      * [运算符的使用](java/java-1/start/start-1/3.md)
+      * [选择结构](java/java-1/start/start-1/4.md)
+    * [循环，数组，方法](java/java-1/start/start-2/README.md)
+      * [循环体结构的使用](java/java-1/start/start-2/1.md)
+      * [数组的移位和统计](java/java-1/start/start-2/2.md)
+  * [网页搭建](java/java-1/web.md)
+  * [数据库开发](java/java-1/sql.md)
+  * [SSM到SpringBoot](java/java-1/ssm.md)
+  * [分布式与微服务](java/java-1/ms.md)
+* [Java项目](java/java-2.md)
 
 ## 💡  LEETCODE
 
@@ -844,9 +846,4 @@
   * [zipinfo](linux/linux-1/zipinfo.md)
   * [zipsplit](linux/linux-1/zipsplit.md)
   * [znew](linux/linux-1/znew.md)
-
-## ✨  PROJECT
-
-* [我的项目](project/myproject/README.md)
-  * [个人博客](project/myproject/blog.md)
 
