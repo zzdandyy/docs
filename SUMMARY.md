@@ -849,5 +849,5 @@
 
 ## 💬  ABOUT
 
-* [关于我](about/about.md)
+* [简历](about/about.md)
 
