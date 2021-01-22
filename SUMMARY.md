@@ -1,6 +1,6 @@
 # Table of contents
 
-* [学习文档](README.md)
+* [📚  学习文档](README.md)
 
 ## 📆 DAILY
 
@@ -24,7 +24,6 @@
   * [数据库开发](java/java-1/sql.md)
   * [SSM到SpringBoot](java/java-1/ssm.md)
   * [分布式与微服务](java/java-1/ms.md)
-* [Java项目](java/java-2.md)
 
 ## 💡  LEETCODE
 
@@ -847,4 +846,8 @@
   * [zipinfo](linux/linux-1/zipinfo.md)
   * [zipsplit](linux/linux-1/zipsplit.md)
   * [znew](linux/linux-1/znew.md)
+
+## 💬  ABOUT
+
+* [关于我](about/about.md)
 
