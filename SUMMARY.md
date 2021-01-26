@@ -7,6 +7,7 @@
 * [2021年寒假](daily/2021-wh/README.md)
   * [day1](daily/2021-wh/day1.md)
   * [day2](daily/2021-wh/day2.md)
+  * [学生信息管理系统](daily/2021-wh/student-manger.md)
 
 ## 🥧  JAVA
 
