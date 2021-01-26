@@ -1,4 +1,8 @@
-# 学生信息管理系统
+---
+description: 2021-01-26  （控制台Demo）
+---
+
+# 源码
 
 {% tabs %}
 {% tab title="Student.java" %}
@@ -171,5 +175,5 @@ public class StudentManger {
 {% endtab %}
 {% endtabs %}
 
-![&#x5B66;&#x751F;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x4E3B;&#x9875;&#x9762;](../../.gitbook/assets/image%20%281%29.png)
+![&#x5B66;&#x751F;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x4E3B;&#x9875;&#x9762;](../../../../.gitbook/assets/image%20%281%29.png)
 

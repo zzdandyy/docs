@@ -7,24 +7,14 @@
 * [2021年寒假](daily/2021-wh/README.md)
   * [day1](daily/2021-wh/day1.md)
   * [day2](daily/2021-wh/day2.md)
-  * [学生信息管理系统](daily/2021-wh/student-manger.md)
 
 ## 🥧  JAVA
 
 * [Java学习](java/java-1/README.md)
-  * [Java基础](java/java-1/start/README.md)
-    * [基础语法](java/java-1/start/start-1/README.md)
-      * [基本概念介绍](java/java-1/start/start-1/1.md)
-      * [数据类型，变量，常量](java/java-1/start/start-1/2.md)
-      * [运算符的使用](java/java-1/start/start-1/3.md)
-      * [选择结构](java/java-1/start/start-1/4.md)
-    * [循环，数组，方法](java/java-1/start/start-2/README.md)
-      * [循环体结构的使用](java/java-1/start/start-2/1.md)
-      * [数组的移位和统计](java/java-1/start/start-2/2.md)
-  * [网页搭建](java/java-1/web.md)
-  * [数据库开发](java/java-1/sql.md)
-  * [SSM到SpringBoot](java/java-1/ssm.md)
-  * [分布式与微服务](java/java-1/ms.md)
+  * [Java项目](java/java-1/java-project/README.md)
+    * [学生信息管理系统](java/java-1/java-project/project1/README.md)
+      * [项目结构](java/java-1/java-project/project1/tree.md)
+      * [源码](java/java-1/java-project/project1/code.md)
 
 ## 💡  LEETCODE
 
