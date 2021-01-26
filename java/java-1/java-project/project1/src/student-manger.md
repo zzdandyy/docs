@@ -1,65 +1,5 @@
----
-description: 2021-01-26  （控制台Demo）
----
+# StudentManger
 
-# 源码
-
-{% tabs %}
-{% tab title="Student.java" %}
-```java
-public class Student {
-    //成员变量
-    private String sid;
-    private String name;
-    private String age;
-    private String address;
-
-    public Student(String sid,String name,String age,String address){
-        this.sid=sid;
-        this.name=name;
-        this.age=age;
-        this.address=address;
-    }
-    public Student(){
-
-    }
-
-    public String getSid() {
-        return sid;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setSid(String sid) {
-        this.sid = sid;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-}
-```
-{% endtab %}
-
-{% tab title="StudentManger.java" %}
 ```java
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -172,8 +112,4 @@ public class StudentManger {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
-
-![&#x5B66;&#x751F;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x4E3B;&#x9875;&#x9762;](../../../../.gitbook/assets/image%20%281%29.png)
 

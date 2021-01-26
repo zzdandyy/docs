@@ -13,8 +13,9 @@
 * [Java学习](java/java-1/README.md)
   * [Java项目](java/java-1/java-project/README.md)
     * [学生信息管理系统](java/java-1/java-project/project1/README.md)
-      * [项目结构](java/java-1/java-project/project1/tree.md)
-      * [源码](java/java-1/java-project/project1/code.md)
+      * [src](java/java-1/java-project/project1/src/README.md)
+        * [Student](java/java-1/java-project/project1/src/student.md)
+        * [StudentManger](java/java-1/java-project/project1/src/student-manger.md)
 
 ## 💡  LEETCODE
 
