@@ -171,9 +171,5 @@ public class StudentManger {
 {% endtab %}
 {% endtabs %}
 
-{% code title="" %}
-```java
-
-```
-{% endcode %}
+![&#x5B66;&#x751F;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x4E3B;&#x9875;&#x9762;](../../.gitbook/assets/image%20%281%29.png)
 
