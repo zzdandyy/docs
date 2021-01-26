@@ -6,11 +6,11 @@ description: '2021-01-26'
 
 ## 完成情况
 
-{% hint style="info" %}
+{% hint style="success" %}
 每一天都学习并记录
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 每天看至少3个leetcode的题目
 {% endhint %}
 
