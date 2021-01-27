@@ -7,6 +7,7 @@
 * [2021年寒假](daily/2021-wh/README.md)
   * [day1](daily/2021-wh/day1.md)
   * [day2](daily/2021-wh/day2.md)
+  * [day3](daily/2021-wh/day3.md)
 
 ## 🥧  JAVA
 
