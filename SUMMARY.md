@@ -9,6 +9,7 @@
   * [day2](daily/2021-wh/day2.md)
   * [day3](daily/2021-wh/day3.md)
   * [day4](daily/2021-wh/day4.md)
+  * [day5](daily/2021-wh/day5.md)
 
 ## 🥧  JAVA
 

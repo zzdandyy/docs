@@ -1,5 +1,17 @@
 # day4
 
+## 完成情况
+
+{% hint style="success" %}
+每一天都学习并记录
+{% endhint %}
+
+{% hint style="warning" %}
+每天看至少3个leetcode的题目
+{% endhint %}
+
+## 学习内容
+
 #### 基本数据类型包装类
 
 | 基本数据类型 | 包装类 |
