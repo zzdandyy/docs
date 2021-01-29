@@ -339,7 +339,7 @@ public class CopyMp4Demo {
 
 UTF-8
 
-```text
+```java
 public class OutputStreamWriterDemo {
     public static void main(String[] args) throws IOException {
         OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("src\\day5\\study7\\test.txt"));
@@ -355,9 +355,49 @@ public class OutputStreamWriterDemo {
 }
 ```
 
+**集合中的数据写到文件**
+
+```java
+public class ArrayListToTxtDemo {
+    public static void main(String[] args) throws IOException {
+        ArrayList<String> array = new ArrayList<>();
+        array.add("hello");
+        array.add("world");
+        array.add("hello");
+        array.add("java");
+        BufferedWriter bw = new BufferedWriter(new FileWriter("src\\day5\\study8\\arrayTxt.txt"));
+        for (String s : array) {
+            bw.write(s);
+            bw.newLine();
+            bw.flush();
+        }
+        bw.close();
+    }
+}
+```
+
+**文件中的数据读到集合**
+
+```java
+public class TxtToArrayListDemo {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("src\\day5\\study8\\arrayTxt.txt"));
+        ArrayList<String> array = new ArrayList<>();
+        String line;
+        while ((line = br.readLine()) != null) {
+            array.add(line);
+        }
+        br.close();
+        for (String s : array) {
+            System.out.println(s);
+        }
+    }
+}
+```
+
 **点名器**
 
-```text
+```java
 public class CallNameDemo {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("src\\day5\\study8\\className.txt"));
