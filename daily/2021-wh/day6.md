@@ -97,7 +97,7 @@ public class PropertiesAndIoDemo {
 
 **游戏次数上限**
 
-```text
+```java
 public class PropertiesDemo {
     public static void main(String[] args) throws IOException {
         Properties prop = new Properties();
@@ -225,7 +225,7 @@ public class MyThreadControlDemo {
 
 **实现Runnable接口实现多线程**
 
-```text
+```java
 public class MyRunnable implements Runnable {
     @Override
     public void run() {
@@ -236,7 +236,7 @@ public class MyRunnable implements Runnable {
 }
 ```
 
-```text
+```java
 public class MyRunnableDemo {
     public static void main(String[] args) {
         MyRunnable mr = new MyRunnable();
