@@ -4,7 +4,7 @@ description: 2021-01-26  （控制台Demo）
 
 # 学生信息管理系统
 
-{% file src="../../../.gitbook/assets/xue-sheng-xin-xi-guan-li-xi-tong-.zip" caption="源码" %}
+{% file src="../../.gitbook/assets/xue-sheng-xin-xi-guan-li-xi-tong-.zip" caption="源码" %}
 
 控制台实现学生信息管理
 

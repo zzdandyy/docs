@@ -16,9 +16,8 @@
 
 ## 🥧  JAVA
 
-* [Java学习](java/java-1/README.md)
-  * [Java项目](java/java-1/java-project/README.md)
-    * [学生信息管理系统](java/java-1/java-project/project1.md)
+* [Java项目](java/java-project/README.md)
+  * [学生信息管理系统](java/java-project/project1.md)
 
 ## 💡  LEETCODE
 
