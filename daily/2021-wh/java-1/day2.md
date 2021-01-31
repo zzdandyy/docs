@@ -241,7 +241,7 @@ System.out.println(arrayList.size());
 
 **学生信息管理系统**
 
-{% page-ref page="../../java/java-1/java-project/project1.md" %}
+{% page-ref page="../../../java/java-1/java-project/project1.md" %}
 
 
 

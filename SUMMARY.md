@@ -5,12 +5,14 @@
 ## 📆 DAILY
 
 * [2021年寒假](daily/2021-wh/README.md)
-  * [day1](daily/2021-wh/day1.md)
-  * [day2](daily/2021-wh/day2.md)
-  * [day3](daily/2021-wh/day3.md)
-  * [day4](daily/2021-wh/day4.md)
-  * [day5](daily/2021-wh/day5.md)
-  * [day6](daily/2021-wh/day6.md)
+  * [Java基础](daily/2021-wh/java-1/README.md)
+    * [day1](daily/2021-wh/java-1/day1.md)
+    * [day2](daily/2021-wh/java-1/day2.md)
+    * [day3](daily/2021-wh/java-1/day3.md)
+    * [day4](daily/2021-wh/java-1/day4.md)
+    * [day5](daily/2021-wh/java-1/day5.md)
+    * [day6](daily/2021-wh/java-1/day6.md)
+    * [day7](daily/2021-wh/java-1/day7.md)
 
 ## 🥧  JAVA
 
