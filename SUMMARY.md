@@ -13,6 +13,8 @@
     * [day5](daily/2021-wh/java-1/day5.md)
     * [day6](daily/2021-wh/java-1/day6.md)
     * [day7](daily/2021-wh/java-1/day7.md)
+  * [Java Web](daily/2021-wh/java-web/README.md)
+    * [day8](daily/2021-wh/java-web/day8.md)
 
 ## 🥧  JAVA
 
