@@ -808,5 +808,3 @@ document.getElementById("btn_add").onclick = function () {
 </html>
 ```
 
-s
-
