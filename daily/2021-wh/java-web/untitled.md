@@ -540,3 +540,273 @@ document.getElementById("btn_add").onclick = function () {
 
 控制样式
 
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>changecss</title>
+    <style>
+        .d1 {
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
+        }
+​
+        .d2 {
+            border: 1px solid blue;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    div1
+</div>
+​
+<div id="div2">
+    div2
+</div>
+<script>
+    let div1 = document.getElementById("div1");
+    div1.onclick = function () {
+        div1.style.border = "1px solid red";
+        div1.style.width = "200px";
+        div1.style.fontSize = "20px";
+    }
+    let div2 = document.getElementById("div2");
+    div2.onclick = function () {
+        div2.className = "d1"
+    }
+</script>
+</body>
+</html>
+```
+
+**事件监听机制**
+
+概念：某些组件被执行某些操作之后，触发某些代码的执行
+
+事件源：组件 如，按钮，文本框
+
+监听器：代码
+
+注册监听：将事件，事件源，监听器结合在一起，当事件源上发送了某个事件，则触发执行某个监听器代码
+
+常见的事件
+
+* 点击事件
+  * 单击事件 onclick
+  * 双击事件 ondblclick
+* 焦点事件
+  * 失去焦点 onblur
+  * 获得焦点 onfocus
+* 加载事件
+  * 页面或图片加载完成 onload
+* 鼠标事件
+  * 鼠标按钮被按下 onmousedown
+  * 鼠标按键被松开 onmouseup
+  * 鼠标被移动 onmousemove
+  * 鼠标移到某个元素上 onmouseout
+  * 鼠标从某个元素上移开 onmouseout
+* 键盘事件
+  * 键盘按键被按下 onkeydown
+  * 键盘按键被松开 onkeyup
+  * 键盘按键被按下然后松开 onkeypress
+* 选择和改变
+  * 域的内容被改变 onchange
+  * 文本被选中 onselect
+* 表单事件
+  * 确定按钮被点击 onsubmit
+  * 重置按钮被点击 onreset
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>incident</title>
+    <style>
+        #username {
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+        //加载完成事件
+        window.onload = function () {
+            //失去焦点事件
+            document.getElementById("input1").onblur = function () {
+                alert("文本框1失去焦点了");//用于表单校验
+            }
+            //鼠标移到元素上面
+            document.getElementById("input2").onmouseover = function () {
+                alert("鼠标移到文本框2上");
+            }
+            //鼠标被按下
+            document.getElementById("input3").onmousedown = function (event) {
+                //左键，右键，滚轮键都算
+                //左键0，滚轮键1，右键2
+                alert(event.button)
+            }
+            document.getElementById("input4").onkeydown = function (event) {
+                //13是回车
+                if (event.keyCode === 13) {
+                    alert("提交")
+                }
+            }
+            document.getElementById("select").onchange = function () {
+                //一般用于下拉列表
+                alert("改变了")
+            }
+            document.getElementById("form").onsubmit = function () {
+                //校验用户名格式
+                let flag = false;
+                return flag;
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="#" id="form">
+    <input id="input1" name="input1">
+    <input id="input2" name="input2">
+    <input id="input3" name="input3">
+    <input id="input4" name="input4">
+    <select id="select">
+        <option>--请选择--</option>
+        <option>北京</option>
+        <option>广州</option>
+        <option>汕头</option>
+    </select>
+    <input type="submit" value="提交">
+</form>
+​
+</body>
+</html>
+```
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格全选</title>
+    <style>
+        table {
+            border: 1px solid;
+            width: 500px;
+            margin-left: 30%;
+        }
+​
+        td, th {
+            text-align: center;
+            border: 1px solid;
+        }
+​
+        div {
+            margin-top: 10px;
+            margin-left: 30%;
+        }
+​
+        .outtr {
+            background-color: white;
+        }
+​
+        .overtr {
+            background-color: pink;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            document.getElementById("selectAll").onclick = function () {
+                //全选
+                let cbs = document.getElementsByName("cb");
+                for (let i = 1; i < cbs.length; i++) {
+                    cbs[i].checked = true;
+                }
+            }
+            document.getElementById("unSelectAll").onclick = function () {
+                //全不选
+                let cbs = document.getElementsByName("cb");
+                for (let i = 0; i < cbs.length; i++) {
+                    cbs[i].checked = false;
+                }
+            }
+            document.getElementById("selectRev").onclick = function () {
+                //反选
+                let cbs = document.getElementsByName("cb");
+                for (let i = 1; i < cbs.length; i++) {
+                    cbs[i].checked = !cbs[i].checked;
+                }
+            }
+            document.getElementById("firstcb").onclick = function () {
+                //第一个选择框
+                let cbs = document.getElementsByName("cb");
+                for (let i = 1; i < cbs.length; i++) {
+                    cbs[i].checked = this.checked;
+                }
+            }
+            //给tr绑定鼠标事件
+            let trs = document.getElementsByTagName("tr");
+            for (let i = 1; i < trs.length; i++) {
+                trs[i].onmouseover = function () {
+                    this.className = "overtr";
+                }
+                trs[i].onmouseout = function () {
+                    this.className = "outtr";
+                }
+            }
+        }
+    </script>
+​
+​
+</head>
+<body>
+​
+<table>
+    <caption>学生信息表</caption>
+    <tr>
+        <th><input type="checkbox" name="cb" id="firstcb"></th>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+​
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>1</td>
+        <td>令狐冲</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);">删除</a></td>
+    </tr>
+​
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);">删除</a></td>
+    </tr>
+​
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>3</td>
+        <td>岳不群</td>
+        <td>?</td>
+        <td><a href="javascript:void(0);">删除</a></td>
+    </tr>
+​
+</table>
+<div>
+    <input type="button" id="selectAll" value="全选">
+    <input type="button" id="unSelectAll" value="全不选">
+    <input type="button" id="selectRev" value="反选">
+</div>
+</body>
+</html>
+```
+
+s
+
