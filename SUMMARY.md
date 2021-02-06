@@ -19,6 +19,7 @@
     * [day10](daily/2021-wh/java-web/day10.md)
     * [day11](daily/2021-wh/java-web/untitled.md)
     * [day12](daily/2021-wh/java-web/day12.md)
+    * [day13](daily/2021-wh/java-web/day13.md)
 
 ## 🥧  JAVA
 
