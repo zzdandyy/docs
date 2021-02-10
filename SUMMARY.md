@@ -23,6 +23,7 @@
     * [day14](daily/2021-wh/java-web/day14.md)
     * [day15](daily/2021-wh/java-web/day15.md)
     * [day16](daily/2021-wh/java-web/day16.md)
+    * [day17](daily/2021-wh/java-web/day17.md)
 
 ## 🥧  JAVA
 

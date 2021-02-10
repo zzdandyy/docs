@@ -16,8 +16,6 @@ description: '2021-02-09'
 
 ## 学习内容
 
-## day16
-
 ### JSP入门
 
 Java Server Pages Java服务器端页面
