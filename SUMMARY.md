@@ -28,7 +28,9 @@
     * [dat19](daily/2021-wh/java-web/dat19.md)
     * [day20](daily/2021-wh/java-web/day20.md)
     * [day21](daily/2021-wh/java-web/day21.md)
-  * [Java 框架](daily/2021-wh/java-kuang-jia.md)
+  * [Java 框架](daily/2021-wh/java-kuang-jia/README.md)
+    * [day22](daily/2021-wh/java-kuang-jia/day22.md)
+    * [day23](daily/2021-wh/java-kuang-jia/day23.md)
 
 ## 🥧  JAVA
 
