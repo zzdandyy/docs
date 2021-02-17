@@ -12,7 +12,7 @@ description: 2021-01-25     ->    2021-02-25
 每天看至少3个leetcode的题目
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 大致理解java的一整个生态及其联系
 {% endhint %}
 

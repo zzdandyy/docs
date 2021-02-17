@@ -31,6 +31,7 @@
   * [Java 框架](daily/2021-wh/java-kuang-jia/README.md)
     * [day22](daily/2021-wh/java-kuang-jia/day22.md)
     * [day23](daily/2021-wh/java-kuang-jia/day23.md)
+    * [day24](daily/2021-wh/java-kuang-jia/day24.md)
 
 ## 🥧  JAVA
 
