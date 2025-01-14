@@ -6,13 +6,11 @@ description: '2021-01-26'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -240,8 +238,6 @@ System.out.println(arrayList.size());
 ```
 
 **学生信息管理系统**
-
-{% page-ref page="../../../java/java-project/project1.md" %}
 
 
 

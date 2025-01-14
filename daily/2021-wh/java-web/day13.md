@@ -6,13 +6,11 @@ description: '2021-02-06'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -25,7 +23,7 @@ description: '2021-02-06'
 
 文档声明
 
-```markup
+```html
 <?xml version='1.0' encoding="utf-8"?>
 ```
 
@@ -53,7 +51,7 @@ description: '2021-02-06'
     <!ATTLIST student number ID #REQUIRED>
     ```
   * 引入DTD文档
-  * ```markup
+  * ```html
     <?xml version="1.0" encoding="UTF-8" ?>
     <!DOCTYPE students SYSTEM "student.dtd">
 
@@ -67,7 +65,7 @@ description: '2021-02-06'
     </students>
     ```
 * Schema 较复杂的约束文档
-  * ```markup
+  * ```html
     <?xml version="1.0"?>
     <xsd:schema xmlns="http://www.itcast.cn/xml"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -291,7 +289,7 @@ work 运行时的数据
 
 在web.xml内配置
 
-```markup
+```html
 <servlet>
     <servlet-name>demo1</servlet-name>
     <servlet-class>com.example.web.ServletDemo</servlet-class>
@@ -328,7 +326,7 @@ Servlet 3.0起，可以使用注解
   * 默认情况下，第一次被访问时，被创建
   * 可以配置
 
-    ```markup
+    ```html
     servlet>
             <servlet-name>demo2</servlet-name>
             <servlet-class>com.example.web.ServletDemo02</servlet-class>

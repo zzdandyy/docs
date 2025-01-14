@@ -6,13 +6,11 @@ description: '2021-02-03'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -22,7 +20,7 @@ description: '2021-02-03'
 
 表单
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,7 +107,7 @@ description: '2021-02-03'
 
 注册页面
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

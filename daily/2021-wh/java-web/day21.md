@@ -6,13 +6,11 @@ description: '2021-02-14'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -276,7 +274,7 @@ MyBatis封装了JDBC，通过xml或注解，最终形成sql语句
 
 核心配置
 
-```markup
+```html
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
@@ -301,7 +299,7 @@ MyBatis封装了JDBC，通过xml或注解，最终形成sql语句
 
 mapper配置
 
-```markup
+```html
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
@@ -436,7 +434,7 @@ public void delete() throws Exception{
 * mappers 映射文件
 * 起别名
 
-  ```markup
+  ```html
   <typeAliases>
       <typeAlias type="pro.doublez.bean.Student" alias="Student"/>
   </typeAliases>
@@ -446,7 +444,7 @@ LOG4J
 
 获得真正的sql语句和具体的参数
 
-```markup
+```html
 #ERROR WARN INFO DEBUG
 log4j.rootLogger=DEBUG, stdout
 
@@ -471,7 +469,7 @@ log4j.appender.stdout.layout.ConversionPattern=%5p [%t] - %m%n
 
 if
 
-```markup
+```html
 <select id="selectCondition" resultType="Student" parameterType="Student">
     SELECT * FROM day21.student
     <where>
@@ -490,7 +488,7 @@ if
 
 foreach
 
-```markup
+```html
 <select id="selectByIds" resultType="Student" parameterType="list">
     SELECT * FROM day21.student
     <where>
@@ -503,7 +501,7 @@ foreach
 
 SQL片段抽取
 
-```markup
+```html
 <sql id="select">SELECT * FROM day21.student</sql>
 
 <include refid="select"/>
@@ -511,7 +509,7 @@ SQL片段抽取
 
 #### 分页插件
 
-```markup
+```html
 <plugins>
     <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
 </plugins>
@@ -551,7 +549,7 @@ System.out.println("是否是最后一页：" + info.isIsLastPage());
 
 一对一
 
-```markup
+```html
 <mapper namespace="pro.doublez.table01.OneToOneMapper">
     <resultMap id="oneToOne" type="card">
         <!--        配置字段和实体对象的映射关系-->
@@ -575,7 +573,7 @@ System.out.println("是否是最后一页：" + info.isIsLastPage());
 
 一对多
 
-```markup
+```html
 <mapper namespace="pro.doublez.table02.OneToManyMapper">
     <resultMap id="oneToMany" type="classes">
         <id column="cid" property="id"/>
@@ -597,7 +595,7 @@ System.out.println("是否是最后一页：" + info.isIsLastPage());
 
 多对多
 
-```markup
+```html
 <mapper namespace="pro.doublez.table03.ManyToManyMapper">
     <resultMap id="manyToMany" type="stu">
         <id column="sid" property="id"/>

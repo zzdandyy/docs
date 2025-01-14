@@ -6,13 +6,11 @@ description: '2021-02-04'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -80,7 +78,7 @@ Screen：显示器屏幕对象
 
     document
 
-  ```markup
+  ```html
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -128,7 +126,7 @@ Screen：显示器屏幕对象
 
 Location
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -156,7 +154,7 @@ Location
 
 跳转回主页
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -196,7 +194,7 @@ Location
 
 轮播图
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -226,7 +224,7 @@ Location
 
 History
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -300,7 +298,7 @@ Element
 * removeAttribute 移除属性
 * setAttribute 添加属性
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -337,7 +335,7 @@ Node 结点对象
 * removeChild 删除子节点
 * replaceChild 替换子节点
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -399,7 +397,7 @@ Node 结点对象
 
 动态表格
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -523,7 +521,7 @@ Node 结点对象
 
 #### HTML DOM
 
-```markup
+```html
 document.getElementById("btn_add").onclick = function () {
     let id = document.getElementById("id").value;
     let name = document.getElementById("name").value;
@@ -540,7 +538,7 @@ document.getElementById("btn_add").onclick = function () {
 
 控制样式
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -621,7 +619,7 @@ document.getElementById("btn_add").onclick = function () {
   * 确定按钮被点击 onsubmit
   * 重置按钮被点击 onreset
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -686,7 +684,7 @@ document.getElementById("btn_add").onclick = function () {
 </html>
 ```
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

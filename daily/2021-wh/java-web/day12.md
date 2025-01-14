@@ -6,13 +6,11 @@ description: '2021-02-05'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -22,7 +20,7 @@ description: '2021-02-05'
 
 初始模板
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -60,7 +58,7 @@ description: '2021-02-05'
   * md: 桌面显示器 &gt;992px
   * lg: 大屏幕 &gt;1200px
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -114,7 +112,7 @@ description: '2021-02-05'
 * 表格
   * class="table"
 * 表单
-  * ```markup
+  * ```html
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
@@ -143,7 +141,7 @@ description: '2021-02-05'
 * 导航条
 * 分页条
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -262,7 +260,7 @@ description: '2021-02-05'
 
 * 轮播图
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>

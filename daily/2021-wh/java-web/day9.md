@@ -6,13 +6,11 @@ description: '2021-02-02'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -479,7 +477,7 @@ c3p0-0.9.5.2.jar和mchange-commons-java-0.2.12.jar
 
 c3p0.properties 或 c3p0-config.xml 放在src目录下
 
-```markup
+```html
 <?xml version="1.0" encoding="utf-8"?>
 <c3p0-config>
   <default-config>

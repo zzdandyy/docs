@@ -6,13 +6,9 @@ description: '2021-02-17'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
 每天看至少3个leetcode的题目
-{% endhint %}
 
 ## 学习内容
 
@@ -111,7 +107,7 @@ AOP使用哪种代理方式
 
 #### XML配置
 
-```markup
+```html
 <!--    配置织入-->
     <aop:config>
         <aop:aspect ref="myAspect">

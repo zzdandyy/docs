@@ -6,13 +6,11 @@ description: '2021-02-08'
 
 ## 完成情况
 
-{% hint style="success" %}
 每一天都学习并记录
-{% endhint %}
 
-{% hint style="warning" %}
+
 每天看至少3个leetcode的题目
-{% endhint %}
+
 
 ## 学习内容
 
@@ -263,7 +261,7 @@ System.out.println(context1);
 
   ，编辑超连接的href属性，指向Servlet，传递资源名称
 
-  ```markup
+  ```html
   <!DOCTYPE html>
   <html lang="en">
   <head>
